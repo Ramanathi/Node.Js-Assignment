@@ -70,7 +70,7 @@ else {
 
 
 app.get('*', function(req, res){
-  res.render('error');
+  res.send('404 error, Page not found and please follow the instructions on home page !!');
 });
 
 //validating JWT
