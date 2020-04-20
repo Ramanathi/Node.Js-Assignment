@@ -21,3 +21,4 @@ to each request. If the JWT is missing or invalid, these endpoints should reject
 
 ### run
 * All the instructions for Mock Authentication and thumbnail generation are listed in `home.ejs`, one can also see them on home page of local server 
+* we can access `image` page *only if* you've logged in
